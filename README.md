@@ -5,8 +5,11 @@
 ### Obtener categorias
 
 TIPO: POST
+
 CONTENT-TYPE: application/json
+
 URL: https://hardcore-poitras-19aebd.netlify.app/.netlify/functions/getcategories
+
 
 Ejemplo: 
 
@@ -31,8 +34,11 @@ Resultado:
  ### Obtener negocio
 
 TIPO: POST
+
 CONTENT-TYPE: application/json
+
 URL: https://hardcore-poitras-19aebd.netlify.app/.netlify/functions/getbusiness
+
 
 Ejemplo: 
 
