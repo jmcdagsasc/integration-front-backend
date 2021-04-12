@@ -60,3 +60,52 @@ Resultado:
     "email": "Sanangel@farmazone.com.mx"
   }
 }
+
+
+### Obtener productos
+
+TIPO: POST
+
+CONTENT-TYPE: application/json
+
+URL: https://hardcore-poitras-19aebd.netlify.app/.netlify/functions/getproducts
+
+
+Ejemplo: 
+
+{
+	"business_id":59,
+	"category":390,
+	"limit":3,
+	"start_at":2
+}
+
+Resultado:
+
+{
+  "error": false,
+  "productsLength": 3,
+  "products": [
+    {
+      "id": 14856,
+      "name": "Proalid Ungüento con 15 g (1 mg)",
+      "price": 419,
+      "sku": null,
+      "description": "Proalid Ungüento con 15 g Tacrolimus (1 mg)",
+      "in_offer": false,
+      "offer_price": null
+    },
+    {
+      "id": 14857,
+      "name": "Italdermol Crema con 30 g (0.1/15 g)",
+      "price": 507,
+      ...
+    },
+    {
+      "id": 14858,
+      "name": "Italdermol 10 Gasas con Crema con 4 g (150 mg)",
+      "price": 695,
+      ...
+    }
+  ]
+}
