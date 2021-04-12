@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+:root {
+  font-family: "Poppins", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #e0f1d9;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  background-color: #72c453;
+  padding: 2.2rem;
+  margin: 0rem 0.6rem;
+  cursor: context-menu;
+}
+
+h5 {
+  font-size: 1.2rem;
+  padding: 0.6rem 2rem;
+  border: 2px solid #72c453;
+  margin: 1rem 0.6rem;
+  display: inline-block;
+  cursor: pointer;
+}
+h5:hover {
+  background-color: #60aa46;
+}
+#categories {
+  margin: auto;
+  margin-top: 3.8rem;
+  width: 80%;
+}
+
+input {
+  width: 60%;
+  margin: 2rem auto 0.6rem auto;
+  display: block;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+input[type="submit"],
+button {
+  width: 30%;
+  margin: 0.5rem auto;
+  display: block;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  background-color: #68b64c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px #ddd;
+}
+
+input[type="submit"],
+button:hover {
+  background-color: #5ba042;
 }
