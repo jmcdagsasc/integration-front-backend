@@ -102,6 +102,7 @@ Resultado:
   "productsLength": 3,
   
   "products": [
+  
     {
       "id": 14856,
       "name": "Proalid Ungüento con 15 g (1 mg)",
@@ -111,18 +112,21 @@ Resultado:
       "in_offer": false,
       "offer_price": null
     },
+    
     {
       "id": 14857,
       "name": "Italdermol Crema con 30 g (0.1/15 g)",
       "price": 507,
       ...
     },
+    
     {
       "id": 14858,
       "name": "Italdermol 10 Gasas con Crema con 4 g (150 mg)",
       "price": 695,
       ...
     }
+    
   ]
   
 }
