@@ -14,14 +14,19 @@ URL: https://hardcore-poitras-19aebd.netlify.app/.netlify/functions/getcategorie
 Ejemplo: 
 
 {
+
 	"business_id":83
+	
 }
 
 Resultado:
 
 {
+
   "error": false,
+  
   "categoriesLength": 40,
+  
   "categories": [
     {
       "id": 1232,
@@ -29,6 +34,7 @@ Resultado:
     },
     ...
   ]
+  
  }
  
  ### Obtener negocio
@@ -43,13 +49,17 @@ URL: https://hardcore-poitras-19aebd.netlify.app/.netlify/functions/getbusiness
 Ejemplo: 
 
 {
+
 	"business_id":83
+	
 }
 
 Resultado:
 
 {
+
   "error": false,
+  
   "business": {
     "id": 83,
     "name": "Farmazone - Guadalupe Inn",
@@ -59,6 +69,7 @@ Resultado:
     "cellphone": null,
     "email": "Sanangel@farmazone.com.mx"
   }
+  
 }
 
 
@@ -74,17 +85,22 @@ URL: https://hardcore-poitras-19aebd.netlify.app/.netlify/functions/getproducts
 Ejemplo: 
 
 {
+
 	"business_id":59,
 	"category":390,
 	"limit":3,
 	"start_at":2
+	
 }
 
 Resultado:
 
 {
+
   "error": false,
+  
   "productsLength": 3,
+  
   "products": [
     {
       "id": 14856,
@@ -108,4 +124,5 @@ Resultado:
       ...
     }
   ]
+  
 }
