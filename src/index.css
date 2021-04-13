@@ -13,8 +13,22 @@ h1 {
   letter-spacing: 2px;
   background-color: #72c453;
   padding: 2.2rem;
+  padding-bottom: 0;
   margin: 0rem 0.6rem;
   cursor: context-menu;
+}
+
+h2 {
+  font-size: 0.7rem;
+  background-color: #72c453;
+  padding: 0.2rem;
+  padding-left: 2.2rem;
+  margin: 0 0.6rem;
+  cursor: context-menu;
+}
+
+h3 {
+  margin-left: 1rem;
 }
 
 h5 {
@@ -69,4 +83,8 @@ button {
 input[type="submit"],
 button:hover {
   background-color: #5ba042;
+}
+
+abbr {
+  text-decoration: none;
 }

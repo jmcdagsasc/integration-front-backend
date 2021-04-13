@@ -1,12 +1,9 @@
-import Formulario from "./components/form.component";
-import Category from "./components/category.component";
-import "./App.css";
+import Manager from "./components/manager.component";
 
 function App() {
   return (
     <div className="App">
-      <Formulario />
-      <Category />
+      <Manager />
     </div>
   );
 }
