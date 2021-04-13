@@ -86,10 +86,10 @@ Ejemplo:
 
 {
 
-	"business_id":59,
-	"category":390,
-	"limit":3,
-	"start_at":2
+	"business_id":59, OBLIGATORIO
+	"category":390, OBLIGATORIO
+	"limit":3,	OPCIONAL
+	"start_at":2 	OPCIONAL
 	
 }
 
