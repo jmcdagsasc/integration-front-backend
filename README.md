@@ -13,20 +13,17 @@ URL: https://hardcore-poitras-19aebd.netlify.app/.netlify/functions/getcategorie
 
 Ejemplo:
 
+```yaml
 {
-
 	"business_id":83
-
 }
 
 Resultado:
 
+```yaml
 {
-
   "error": false,
-
   "categoriesLength": 40,
-
   "categories": [
     {
       "id": 1232,
@@ -34,8 +31,7 @@ Resultado:
     },
     ...
   ]
-
- }
+}
 
  ### Obtener negocio
 
@@ -48,18 +44,16 @@ URL: https://hardcore-poitras-19aebd.netlify.app/.netlify/functions/getbusiness
 
 Ejemplo:
 
+```yaml
 {
-
 	"business_id":83
-
 }
 
 Resultado:
 
+```yaml
 {
-
   "error": false,
-
   "business": {
     "id": 83,
     "name": "Farmazone - Guadalupe Inn",
@@ -69,7 +63,6 @@ Resultado:
     "cellphone": null,
     "email": "Sanangel@farmazone.com.mx"
   }
-
 }
 
 
@@ -84,7 +77,7 @@ URL: https://hardcore-poitras-19aebd.netlify.app/.netlify/functions/getproducts
 
 Ejemplo:
 
-
+```yaml
 {
 	"business_id":59, OBLIGATORIO
 	"category":390, OBLIGATORIO
@@ -94,7 +87,7 @@ Ejemplo:
 
 Resultado:
 
-
+```yaml
 {
   "error": false,
   "productsLength": 3,
@@ -138,26 +131,24 @@ URL: https://hardcore-poitras-19aebd.netlify.app/.netlify/functions/getproducts
 
 Ejemplo:
 
-
+```yaml
 {
 	"location":"19.34403985031544, -99.15059790738852"
 }
 
 Resultado:
 
-
+```yaml
 {
   "error": false,
   "businessFound": 1,
   "businessList": [
     {
-
       "id": 83,
       "name": "Farmazone - Guadalupe Inn",
       "address": "1000 West 5th Street, Austin, TX, USA",
       "slug": "SanAngel",
       "open": false
-
     }
   ]
 }
