@@ -140,22 +140,32 @@ Ejemplo:
 
 
 {
+
 	"location":"19.34403985031544, -99.15059790738852"
+
 }
 
 Resultado:
 
 
 {
+
   "error": false,
+
   "businessFound": 1,
+
   "businessList": [
+
     {
+
       "id": 83,
       "name": "Farmazone - Guadalupe Inn",
       "address": "1000 West 5th Street, Austin, TX, USA",
       "slug": "SanAngel",
       "open": false
+
     }
+
   ]
+
 }
