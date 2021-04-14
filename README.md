@@ -140,22 +140,16 @@ Ejemplo:
 
 
 {
-
 	"location":"19.34403985031544, -99.15059790738852"
-
 }
 
 Resultado:
 
 
 {
-
   "error": false,
-
   "businessFound": 1,
-
   "businessList": [
-
     {
 
       "id": 83,
@@ -165,7 +159,5 @@ Resultado:
       "open": false
 
     }
-
   ]
-
 }
