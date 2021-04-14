@@ -15,8 +15,9 @@ Ejemplo:
 
 ```yaml
 {
-	"business_id":83
+"business_id":83
 }
+```
 
 Resultado:
 
@@ -32,6 +33,7 @@ Resultado:
     ...
   ]
 }
+```
 
  ### Obtener negocio
 
@@ -46,8 +48,9 @@ Ejemplo:
 
 ```yaml
 {
-	"business_id":83
+"business_id":83
 }
+```
 
 Resultado:
 
@@ -64,7 +67,7 @@ Resultado:
     "email": "Sanangel@farmazone.com.mx"
   }
 }
-
+```
 
 ### Obtener productos
 
@@ -79,11 +82,12 @@ Ejemplo:
 
 ```yaml
 {
-	"business_id":59, OBLIGATORIO
-	"category":390, OBLIGATORIO
-	"limit":3,	OPCIONAL
-	"start_at":2 	OPCIONAL
+ "business_id":59, OBLIGATORIO
+ "category":390, OBLIGATORIO
+ "limit":3,	OPCIONAL
+ "start_at":2 	OPCIONAL
 }
+```
 
 Resultado:
 
@@ -118,7 +122,7 @@ Resultado:
     }
   ]
 }
-
+```
 
 ### Obtener negocio teniendo coordenadas de localización
 
@@ -133,8 +137,9 @@ Ejemplo:
 
 ```yaml
 {
-	"location":"19.34403985031544, -99.15059790738852"
+"location":"19.34403985031544, -99.15059790738852"
 }
+```
 
 Resultado:
 
@@ -152,3 +157,4 @@ Resultado:
     }
   ]
 }
+```
