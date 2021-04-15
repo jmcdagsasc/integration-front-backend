@@ -15,7 +15,7 @@ Ejemplo:
 
 ```yaml
 {
-"business_id":83
+   "business_id": 83
 }
 ```
 
@@ -82,10 +82,10 @@ Ejemplo:
 
 ```yaml
 {
- "business_id":59, OBLIGATORIO
- "category":390, OBLIGATORIO
- "limit":3,	OPCIONAL
- "start_at":2 	OPCIONAL
+ "business_id": 59,  OBLIGATORIO
+ "category": 390,    OBLIGATORIO
+ "limit": 3,	       OPCIONAL
+ "start_at": 2 	     OPCIONAL
 }
 ```
 
@@ -137,7 +137,7 @@ Ejemplo:
 
 ```yaml
 {
-    "location":"19.34403985031544, -99.15059790738852"
+   "location": "19.34403985031544, -99.15059790738852"
 }
 ```
 
