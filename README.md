@@ -130,14 +130,14 @@ TIPO: POST
 
 CONTENT-TYPE: application/json
 
-URL: https://hardcore-poitras-19aebd.netlify.app/.netlify/functions/getproducts
+URL: https://hardcore-poitras-19aebd.netlify.app/.netlify/functions/findbusiness
 
 
 Ejemplo:
 
 ```yaml
 {
-"location":"19.34403985031544, -99.15059790738852"
+    "location":"19.34403985031544, -99.15059790738852"
 }
 ```
 
